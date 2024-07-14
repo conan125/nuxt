@@ -1,0 +1,20 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/typescript-build": "^3.0.2",
+    "@vant/nuxt": "^1.0.5",
+    "nuxt": "^3.12.3",
+    "sass": "^1.77.8",
+    "typescript": "^5.5.3",
+    "vue": "latest"
+  }
+}
